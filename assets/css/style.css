@@ -169,6 +169,7 @@ header #button2:hover {
     text-transform: uppercase;
     font-size: 2.5em;
     margin: 7% 0 3% 0;
+    font-weight: 300;
 }
 
 #features .long-copy {
@@ -221,7 +222,7 @@ header #button2:hover {
 /* ----------------------------------------------- */
 .section-meals{
     padding: 0;
-    margin: 5% 0;
+    margin: 5% 0 0 0;
 }
 .section-meals ul{
     list-style: none;
@@ -253,6 +254,7 @@ header #button2:hover {
         text-transform: uppercase;
         padding-bottom: 30px;
         font-size: 2.5em;
+        font-weight: 300;
         }
 
     #works hr {
@@ -305,6 +307,7 @@ header #button2:hover {
     font-size: 2.5em;
     margin-top: 5%;
     margin-bottom: 3%;
+    font-weight: 300;
 
 }
 #cities hr {
@@ -349,6 +352,8 @@ header #button2:hover {
     text-transform: uppercase;
     margin: 5% 0 2% 0;
     color: white;
+    font-weight: 300;
+    font-size: 2em;
 
 }
 
@@ -407,6 +412,8 @@ header #button2:hover {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 2em;
 
 }
 
@@ -509,6 +516,8 @@ header #button2:hover {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 2em;
 
 }
 
