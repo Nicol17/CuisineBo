@@ -398,7 +398,8 @@ header #button2:hover {
 
 #plans {
     background-color: #f8f9fa;
-
+    padding: 5% 10%;
+    text-align: center;
 }
 
 #plans h2{
@@ -412,17 +413,21 @@ header #button2:hover {
 #plans h3 {
     text-transform: uppercase;
     padding: 5%;
+    text-align: left;
 
 }
 
 #plans p {
     padding: 5%;
+    text-align: left;
+
 
 }
 
 #plans ul{
     list-style-type: none;
     padding: 5%;
+    text-align: left;
 
 }
 
@@ -444,23 +449,27 @@ header #button2:hover {
 #plans a{
     display: inline-block;
     text-decoration: none;
-    color: #555;
+    color: orange;
     border: 1px solid orange;
     padding: 3%;
     margin: 5%;
-    border-radius: 25%;
+    border-radius: 50px;
 }
+
+#plans a:hover {
+    background-color: orange;
+    color: white;
+  }
 
 #plans .btnclass{
     text-align: center;
 }
 
 #plans hr {
-    width: 5%;
-    height: px;
+    width: 10%;
+    height: 0px;
     margin: 0 auto;
-    border: 1px solid orange;
-    margin-bottom: 30px;
+    border: 2px solid orange;    
 }
 
 #plans-box hr{
@@ -474,7 +483,103 @@ header #button2:hover {
 /* FORM */
 /* ----------------------------------------------- */
 
+#form {
+    margin: 5% 10%;
+    text-align: center;
+}
+
+#formcontent {
+    text-align: left;
+    display: inline-block;
+    padding: 2.5%;
+
+}
+
+
+#form hr {
+    width: 10%;
+    height: 0px;
+    margin: 0 auto;
+    border: 2px solid orange;    
+}
+
+
+#form h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+
+#form label{
+    margin-bottom: 30px;
+    margin-right: 100px;
+
+}
+
+#form input, select, textarea{
+    margin-bottom: 30px;
+    margin-left: 100px;
+    padding: 1%;
+    border: 1px solid #a1a1a1;
+    border-radius: 2px;
+}
+
+#form #name, #email, #find-us{
+    width: 300px;
+}
+
+#form textarea {
+    width: 300px;
+    height: 100px;
+  }
+
+#form #button-form{
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 30px;
+    border: 1px solid orange;
+    width: 7em;
+
+}
+
 
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */
+
+footer {
+    background-color: #555;
+    color: #9ea0a1;
+    padding: 3% 10%;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #9ea0a1;
+    margin-right: 1em;
+    text-align: right;
+    justify-content: space-around;
+
+}
+
+footer p{
+    text-align: center;
+    padding-top: 1%;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.social-links {
+    float: right;
+}
+
