@@ -313,11 +313,19 @@ header {
 
 #plans h3 {
     text-transform: uppercase;
+    padding: 5%;
+
+}
+
+#plans p {
+    padding: 5%;
 
 }
 
 #plans ul{
     list-style-type: none;
+    padding: 5%;
+
 }
 
 #plans .plan-price{
@@ -332,13 +340,21 @@ header {
 #plans .plan-box{
     display: inline-block;
     background-color: white;
-    width: 350px
+    width: 350px;
 }
 
 #plans a{
     display: inline-block;
     text-decoration: none;
     color: #555;
+    border: 1px solid orange;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 25%;
+}
+
+#plans .btnclass{
+    text-align: center;
 }
 
 #plans hr {
