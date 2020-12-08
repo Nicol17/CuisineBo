@@ -298,6 +298,63 @@ header {
 /* PLANS */
 /* ----------------------------------------------- */
 
+#plans {
+    background-color: #f8f9fa;
+
+}
+
+#plans h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+
+#plans h3 {
+    text-transform: uppercase;
+
+}
+
+#plans ul{
+    list-style-type: none;
+}
+
+#plans .plan-price{
+    color: orange;
+    font-size: 3em;
+}
+
+#plans span{
+    font-size: .5em;
+}
+
+#plans .plan-box{
+    display: inline-block;
+    background-color: white;
+    width: 350px
+}
+
+#plans a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+}
+
+#plans hr {
+    width: 5%;
+    height: px;
+    margin: 0 auto;
+    border: 1px solid orange;
+    margin-bottom: 30px;
+}
+
+#plans-box hr{
+    width: 100%;
+    height: 0px;
+    margin: 0 auto;
+    border: 1px solid #f8f9fa;
+}
 
 /* ----------------------------------------------- */
 /* FORM */
